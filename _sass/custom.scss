@@ -1,0 +1,15 @@
+
+
+/* The pig.*/
+img#pig {
+	float: right;
+	transition: transform 0.5s ease-in-out;
+}
+img#pig:hover {
+	transform: rotate(0deg);
+}
+img#pig.clicked {
+	cursor:pointer;
+	transform: scale(0.4);
+	transition: transform 1s linear;
+}
